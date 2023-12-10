@@ -4,9 +4,8 @@ from googleapiclient.discovery import build
 import datetime as dt
 
 # Set up YouTube API credentials
-#api_key = "AIzaSyCgJDEfNimZ6pTU6VlRO1ZJjVdpD0ARBPI"
 
-api_key = "AIzaSyCT-kg19n5KUSX07OZYM5mdFfgU19QHFIM"
+api_key = "USE YOUR YOUTUBE API KEY"
 
 # Set up YouTube API client
 youtube = build('youtube', 'v3', developerKey=api_key)
